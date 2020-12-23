@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-showcase",
+  "version": "1.0.0",
+  "description": "Puppeteer tests showcase",
+  "main": "index.js",
+  "repository": "git@github.com:Donnyyyyy/puppeteer-showcase.git",
+  "author": "Dmitrii Donetskii",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha -r esm 'test.js' --timeout 60000",
+    "serve": "http-server --port 5000"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "http-server": "^0.12.3",
+    "mocha": "^8.2.1",
+    "puppeteer": "^5.5.0"
+  }
+}
